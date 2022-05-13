@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baloo 2" cursive;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+.container1{
+    align-items: center;
+    justify-content: center;
+    padding: 40px 47px;
+    display: flex;
+    height: 600px;
+    margin-top: 10%;
+    box-shadow: 10px 10px 10px -8px #aaaaaa, -10px -10px 24px #ffffff;
+    border-radius: 20px;
+}
+
+.container1 img{
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+
+
+}
+
+.about_detailes{
+    margin: 0 45px;
+}
+
+.about_detailes span{
+    color: red;
+}
+
+.about_detailes h2{
+    font-family: "Potta One";
+    font-weight: 100;
+    font-size: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.about_detailes p{
+    color: gray;
+    font-size: 15px;
+
+}
+.about_detailes .Pandora{
+    color: rgb(20, 11, 11);
+}
+
+.about_detailes .Address{
+    color: rgb(20, 11, 11);
+}
+#map {
+    height: 300px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+
+     border-radius: 50px; 
+  }
+
+/* .btn1{
+    margin: 15px 0;
+    padding: 8px 20px;
+    display: inline-block;
+    
+    border:.2rem solid var(--red);
+    color:var(--red);
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 1rem;
+  } */
+  
+  /* .btn1::before{
+    content: '';
+    position: absolute;
+    top:0; right: 0;
+    width:0%;
+    height:100%;
+    background:var(--red);
+    transition: .3s linear;
+    z-index: -1;
+  }
+  
+  .btn1:hover::before{
+    width:100%;
+    left: 0;
+  }
+  
+  .btn1:hover{
+    color:#fff;
+  } */
+
+  .heading1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding:1rem;
+    color:#666;
+    margin-left: -800px;
+  }
+  
+  .heading1 span{
+    color:var(--red);
+  }
+
+  .AboutUs img{
+    height: 100%;
+    width: 30%;
+    border-radius: 20px;
+    margin-left: 900px;
+    margin-bottom: -20px;
+  }
+
+  .AboutUs1{
+    margin-top: -300px;
+  }
+
+  .AboutUs1 span{
+    color: red;
+}
+
+.AboutUs1 h2{
+    font-family: "Potta One";
+    font-weight: 100;
+    font-size: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.AboutUs1 p{
+    color: gray;
+    font-size: 15px;
+
+}
+.AboutUs1 .Pandora{
+    color: rgb(20, 11, 11);
+}
+.Phone{
+  text-decoration: underline;
+}
+
+.footer{
+  background:#000;
+  text-align: center;
+}
+
+.footer .share{
+  display: flex;
+  gap:1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer .credit{
+  padding:2.5rem 1rem;
+  color:#fff;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.footer .credit span{
+  color:var(--red);
+}
+
