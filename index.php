@@ -298,7 +298,7 @@ if (isset($_POST['reservation_submit'])) {
             </form>
         </div>
 
-        <div class="btn1" onclick="myFunction()">Add Event
+        <div class="btn1" onclick="myFunction2()">Add Event
             <span class="popuptext" id="myPopup"></span>
         </div>
 
@@ -515,6 +515,9 @@ if (isset($_POST['reservation_submit'])) {
                 <a href="Menu.php" class="btn">Check it out !</a>
             </div>
         </div><br><br><br><br><br>
+
+
+        
 
         <h1 class="heading"> popular <span>clients</span> </h1>
         <div class="box-container">
